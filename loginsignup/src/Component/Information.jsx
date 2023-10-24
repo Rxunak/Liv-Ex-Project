@@ -3,7 +3,7 @@ import "../Styles/Information.css";
 
 const Information = () => {
   return (
-    <div></div>
+    <div>sdcsdc</div>
   )
 }
 
