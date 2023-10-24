@@ -1,7 +1,7 @@
 
 import './App.css';
-import LoginSignup from './Components/LoginSignup/LoginSignup';
-import InformationPage from './Components/InformationPage/Information'
+import LoginSignup from '../src/Component/LoginSignup';
+import InformationPage from '../src/Component/Information'
 
 function App() {
   return (

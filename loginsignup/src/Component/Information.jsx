@@ -1,9 +1,9 @@
 import React from 'react'
-import "./Information.css";
+import "../Styles/Information.css";
 
 const Information = () => {
   return (
-    <div>Information</div>
+    <div></div>
   )
 }
 
