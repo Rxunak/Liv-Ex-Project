@@ -10,15 +10,15 @@ class Navbar extends Component{
         return(
             <nav className="NavbarItems">
                 <img className="logo2" src={logo} alt="" />
-
+  
                 <ul className="nav-menu">
                     {MenuItems.map((item, index) =>{
                         return(
                         
                         <li key={index}>
-                        <a className={item.cName} href="/">
+                        <Link className={item.cName} to={item.url}>
                         <i className={item.icon}></i>{item.title}
-                        </a>
+                        </Link>
                     </li>
                         )
                     

@@ -24,12 +24,19 @@ export const MenuItems = [
     },
 
     {
-        title : "Sign Up",
+        title : "SignUp",
         url : "/signup",
         cName : "nav-links-mobile",
     
 
     },
+    {
+        title : "Random",
+        url : "/Random",
+        cName : "nav-links",
+        icon : "fa-solid fa-circle-info"
+
+    }
 
     
 ]
