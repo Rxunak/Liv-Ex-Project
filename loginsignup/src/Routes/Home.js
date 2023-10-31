@@ -1,16 +1,18 @@
 import React from 'react'
 import Navbar from '../Component/Navbar'
-import Wrapper from '../Component/Wrapper'
+
+
 
 const Home = () => {
   return (
-    <>
-    <Wrapper>
-        <div>Home</div>
-    </Wrapper>
+    <div>
+      <div>    <Navbar/></div>
+      <div>This is my Home page</div>
 
-     
-    </>
+    </div>
+ 
+
+
     
   )
 }

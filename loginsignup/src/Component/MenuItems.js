@@ -30,13 +30,6 @@ export const MenuItems = [
     
 
     },
-    {
-        title : "Random",
-        url : "/Random",
-        cName : "nav-links",
-        icon : "fa-solid fa-circle-info"
-
-    }
-
+    
     
 ]

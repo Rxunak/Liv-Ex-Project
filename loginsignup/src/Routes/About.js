@@ -1,11 +1,17 @@
-import Wrapper from "../Component/Wrapper";
+
+import Navbar from "../Component/Navbar";
 
 
 function About (){
     return(
-        <Wrapper>
-            
-        </Wrapper>
+
+        <div>
+             <div><Navbar/></div>
+        <div>This is my Contacts Page</div>
+
+        </div>
+       
+     
     )
 }
 

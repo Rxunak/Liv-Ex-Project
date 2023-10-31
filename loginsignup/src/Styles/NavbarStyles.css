@@ -27,7 +27,7 @@
 
 .nav-links{
     text-decoration: none;
-    color: #222;
+    color: black;
     font-size: 1.2rem;
     font-weight: 600;
     padding: 0.7 rem 1rem;
@@ -40,8 +40,8 @@
 }
 
 .nav-links:hover{
-    background-color: #babbf6 ;
-    color: #fff;
+    background-color: transparent ;
+    color: #8a1253;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
 
@@ -64,8 +64,8 @@
 }
 
 .navbarbutton:hover{
-    background-color: #babbf6;
-    color: white;
+    background-color: transparent;
+    color: #8a1253;
 }
 
 @media screen and (max-width: 850px){
