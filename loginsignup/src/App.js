@@ -6,13 +6,16 @@ import { Routes, Route} from 'react-router-dom';
 import Home from './Routes/Home';
 import Contact from './Routes/Contact';
 import About from './Routes/About';
+import Footer from './Component/Footer';
 
 import React from 'react'
 
 
 function App() {
   return (
-    <div >
+
+    <div className='page-container'>
+    <div  className='content-wrap'>
          <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
@@ -20,6 +23,9 @@ function App() {
           <Route path="/signup" element={<SignUp/>}/>
           
          </Routes>
+         
+    </div>
+    <Footer/>
     </div>
   );
 }
