@@ -7,7 +7,7 @@ import Home from './Routes/Home';
 import Contact from './Routes/Contact';
 import About from './Routes/About';
 import Footer from './Component/Footer';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 import React from 'react'
 

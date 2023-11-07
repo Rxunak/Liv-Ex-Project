@@ -6,8 +6,10 @@ import { Container } from 'react-bootstrap'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
-import { faInstagram} from '@fortawesome/free-brands-svg-icons'
-import { faTwitter} from '@fortawesome/free-brands-svg-icons'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+
+import logo from '../Assets/IT Support.png'
 
 const Footer = () => {
     return (
@@ -19,22 +21,14 @@ const Footer = () => {
                     <div className='Socials'>
                         <h3>Socials Follow</h3>
                         <a href="https://facebook.com">
-                            <FontAwesomeIcon icon={faFacebook}/>
+                            <FontAwesomeIcon icon={faFacebook} />
                         </a>
                         <a href="https://instagram.com">
-                            <FontAwesomeIcon icon={faInstagram}/>
+                            <FontAwesomeIcon icon={faInstagram} />
                         </a>
                         <a href="https://twitter.com">
-                            <FontAwesomeIcon icon={faTwitter}/>
+                            <FontAwesomeIcon icon={faTwitter} />
                         </a>
-                        
-
-                        
-                       
-        
-      
-
-
                     </div>
 
                     <div className='col1'>
@@ -50,6 +44,11 @@ const Footer = () => {
 
                     <div className='col'>
                         <h4>raunak@liv-ex.com</h4>
+                    </div>
+
+                    <div className='logo'>
+                    <img className="logo3" src={logo} alt="" />
+
                     </div>
 
 
