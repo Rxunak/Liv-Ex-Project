@@ -1,8 +1,8 @@
-import React from 'react'
+  import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../Styles/Footer.css'
 
-import { Container } from 'react-bootstrap'
+
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
@@ -19,31 +19,31 @@ const Footer = () => {
                 <div className='row1'>
 
                     <div className='Socials'>
-                        <h3>Socials Follow</h3>
-                        <a href="https://facebook.com">
+                        <h3 className='socialh3'>Socials Follow</h3>
+                        <a id='ic' href="https://facebook.com">
                             <FontAwesomeIcon icon={faFacebook} />
                         </a>
-                        <a href="https://instagram.com">
+                        <a id='ic'  href="https://instagram.com">
                             <FontAwesomeIcon icon={faInstagram} />
                         </a>
-                        <a href="https://twitter.com">
+                        <a id='ic'  href="https://twitter.com">
                             <FontAwesomeIcon icon={faTwitter} />
                         </a>
                     </div>
 
                     <div className='col1'>
-                        <h3>15 West End Lane UB3 5LT</h3>
+                        <h3 className='colad'>15, West End Lane UB3 5LT</h3>
                     </div>
 
 
                     <div className='col'>
-                        <h4>07828378978</h4>
+                        <h4 className='cont'>07828378978</h4>
                     </div>
 
 
 
                     <div className='col'>
-                        <h4>raunak@liv-ex.com</h4>
+                        <h4 className='cont'>raunak@liv-ex.com</h4>
                     </div>
 
                     <div className='logo'>
