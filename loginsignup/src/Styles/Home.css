@@ -1,0 +1,28 @@
+.HomeLogo{
+    height: 40rem;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 50rem;
+    
+}
+
+#homehead{
+    font-size: 5rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+
+.infoo{
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    width: 20rem;
+    
+    
+}
+
+#info{
+    padding-top: 2rem;
+    padding-left: 5rem;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
