@@ -11,7 +11,7 @@ function Home (){
   return(
     <div className='home-container'>
 
-<div className='heading'>
+       <div className='heading'>
         <h1>Welcome to IT Support</h1>
       </div>
 
