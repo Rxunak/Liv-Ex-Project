@@ -10,6 +10,7 @@ import Footer from './Component/Footer';
 
 
 import React from 'react'
+import Navbar from './Component/Navbar';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
 
     <div className='page-container'>
     <div  className='content-wrap'>
+         <Navbar/>
          <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
