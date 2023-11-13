@@ -24,8 +24,11 @@ class Navbar extends Component{
                     
                     })}
 
+                     <Link to='/SignUp'>
+
+                     
                     <button className='navbarbutton'>Sign Up</button>
-                    
+                    </Link>
 
                 </ul>
             </nav>

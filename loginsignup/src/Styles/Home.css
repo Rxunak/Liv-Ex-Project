@@ -1,44 +1,53 @@
 .home-container{
-    padding-left: 2rem;
+    position: relative;
+    width: 50%;
+}
+
+.home-image {
+    display: block;
+    margin-left: 45rem;
+    margin-right: auto;
+    width: 50%;
     padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-right: 2rem;
-}
+    border-radius: 5rem;
+  }
 
-.heading{
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
-    width: 250px;
-}
+  .overlay{
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  top: 2rem;  
+  background-color: #97898d;
+  overflow: hidden;
+  width: 50%;
+  height: 0;
+  transition: .5s ease;
+  margin-left: 45rem;
+  margin-right: auto;
+  border-radius: 2rem;
+  
+  
+  }
 
-.head1{
-
-
-}
-
-.home-banner{
-    width: 100px;
-    height: 100px;
-    border: 2px solid salmon;
-    margin: 50px auto;
-    position: relative;
-    left: 30%;
-    align-items: center;
-}
-
-.home-image{
-    width: 500px;
-    height: 400px;
-    position: relative;
-    right: 150px;
+  .home-container:hover .overlay {
+    bottom: 0;
+    height: 100%;
     
-    
-    
-    
-
 }
+
+  .home-text{
+    
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
 
 
 
