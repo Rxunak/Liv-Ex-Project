@@ -8,11 +8,15 @@ function Home() {
   return (
     <div className='home-container'>
 
+      <div className='container-home'>
       <img className='home-image' src={logo} alt="" />
       <div className='overlay'>
         <p className='home-text'>Welcome to IT SUPPORT</p>
 
       </div>
+
+      </div>
+      
 
       
 

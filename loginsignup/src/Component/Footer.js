@@ -20,13 +20,13 @@ const Footer = () => {
 
                     <div className='Socials'>
                         <h3 className='socialh3'>Socials Follow</h3>
-                        <a id='ic' href="https://facebook.com">
+                        <a id='ic' href="https://facebook.com" target='_blank'>
                             <FontAwesomeIcon icon={faFacebook} />
                         </a>
-                        <a id='ic'  href="https://instagram.com">
+                        <a id='ic'  href="https://instagram.com" target='_blank'>
                             <FontAwesomeIcon icon={faInstagram} />
                         </a>
-                        <a id='ic'  href="https://twitter.com">
+                        <a id='ic'  href="https://twitter.com" target='_blank'>
                             <FontAwesomeIcon icon={faTwitter} />
                         </a>
                     </div>
