@@ -5,7 +5,7 @@
     margin-top: 30rem;
 }
 
-.hamsa{
+.content{
     background-color: grey;
     height: 35rem;
     width: 35rem;
@@ -18,7 +18,36 @@
 }
 
 .btn2{
+    display: block;
     background-color: antiquewhite;
     border-radius: 2rem;
-    margin-top: 20rem;
+    margin-top: 1rem;
+    margin-left: 16rem;
 }
+
+.form{
+    height: 18rem;
+    width: 18rem;
+    margin: auto;
+    margin-top: 8rem;
+}
+
+.cont-lab{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+.cinp{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    
+}
+
+.cont-btn{
+    margin-top: 2rem;
+}
+

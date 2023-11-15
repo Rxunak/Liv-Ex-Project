@@ -13,21 +13,20 @@ const Contact =()=>
 
 
             <button id='cont-butn' onClick={()=>setvisible(true)}>Contact Us</button>
-            <Model className={"hamsa"} s isOpen={visible} onRequestClose={()=>setvisible(false)}>
+            <Model className={"content"} s isOpen={visible} onRequestClose={()=>setvisible(false)}>
                 <h1>Fill in your Details</h1>
-                <form action="">
-                    <label htmlFor="">
-                        Name:
-                        <input type="text" name='name' />
+                <form className='form' action="">
+                    <label  htmlFor=""> 
+                        <input className='cinp' type="text" name='name' placeholder='Name' />
                         <br />
-                        Email:
-                        <input type="email"  />
+                       
+                        <input className='cinp' type="email" placeholder='Email' />
                         <br />
-                        Query:
-                        <input type="text" />
+                       
+                        <input className='cinp' type="text" placeholder='Query'/>
                     </label>
                     <br />
-                    <input type="submit" value="Submit" />
+                    <input className='cont-btn' type="submit" value="Submit" />
                 </form>
                 <button className='btn2' onClick={()=>setvisible(false)}>Close</button>
             </Model>

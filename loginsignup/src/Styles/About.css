@@ -1,60 +1,72 @@
-.about-heading{
 
-    color: #8b8587;
+
+  .about-head2{
     text-align: center;
-    /* border-radius: 2rem;
-    background-color: #8b8587; */
-    width: 11%;
-    height: 6rem;
-    margin-top: 2rem;
-    margin-left: 51rem;
-    padding-top: 1.2rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
     font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+  }
+
+  .paral1{
+  width: 550px;
+	height: 300px;
+	transform: skew(20deg);
+	background:lightgray;
+  display: inline-block;
+  margin-left: 2rem;
+  border-radius: 2rem;
+  
+  
+  }
+
+  .Parall{
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    margin-left: 2rem;
     
     
-   
-}
+  }
 
-.abt-img-cont{
-    position: relative;
-}
+  .abouticon{
+    width: 100px;
+    height: 300px;
+    margin-left: 14rem;
+    
 
-.About-text {
+  }
+
+  .overlay-about {
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+    background-color: #97898d;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .4s ease;
+    
+    
+    border-radius: 2rem;
+  }
+  
+  .paral1:hover .overlay-about {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .home-text1 {
+    color: white;
+    font-size: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    font-size: 22px;
-    width: 35rem;
     text-align: center;
-    font-weight: 10rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 600;
-    
-    text-rendering: optimizeLegibility;
-    color:white;
-    
-     text-shadow:
-      
-      -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-      
-    
-  }
-
-  .about-head{
-    padding-bottom: 1rem;
-  }
-  
-  
-  
-
-  .About-image{ 
-   
-    width: 50%;
-    height: 50%;
-    opacity: 0.5;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    margin-left: 31rem;
-    border-radius: 4rem;
   }
