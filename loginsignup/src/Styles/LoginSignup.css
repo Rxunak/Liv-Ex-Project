@@ -7,6 +7,7 @@
   padding-bottom: 30px;
   width: 600px;
   border-radius: 15px;
+  height: 500px;
 }
 
 .header {
@@ -98,3 +99,5 @@
   background: #eaeaea;
   color: #676767;
 }
+
+

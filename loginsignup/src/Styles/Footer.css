@@ -1,66 +1,75 @@
-.main-footer{
+/* .main-footer{
   color: white;
-  background-color: #8b8587;
+  background: radial-gradient(circle at 18.7% 37.8%, rgb(223, 219, 219) 0%, rgb(200, 226, 238) 90%);
   padding-top: 1rem;
   position: relative;
   bottom: 0;
   width: 100%;
+  color: black;
+  border-top: 1px solid black;
+} */
+
+.footercontainer{
+  color: white;
+  background: radial-gradient(circle at 18.7% 37.8%, rgb(223, 219, 219) 0%, rgb(200, 226, 238) 90%);
+  width: 100%;
+  color: black;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 30rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   
+
 }
 
-
-
-.row1{
-    
-    
-    text-align: center;
-  
-    
+.Socials{
+    font-size: large;
+    width: 15rem;
 }
 
-.col{
-    display: inline-block;
-    padding: 1rem 1rem;
-    vertical-align: middle;
-}
-
-.row2{
-   
-    text-align: center;
+.socialsH3{
+    font-size: 2rem
     
-    
-}
-
-.logo3{
-    height: 5rem;
-    border-radius: 1rem;
-    padding-right: 2rem 2rem;
-}
-
-.socialh3{
-    text-align: center;
-    font-size: 1rem;
-    font-weight: 2rem;
-    padding-right: 1rem;
 }
 
 #ic{
-    color: white;
-    padding-right: 1rem ;
+    color: black;
+    padding: 9px;
+    font-size: 3rem;
+    
 }
 
 #ic:hover{
     background-color: transparent;
     color: #8a1253;
+   
 }
 
-.colad{
-    font-size: 1rem;
-   padding-top: 1rem;
+
+.row2{
+    display: flex; 
+    align-items: center;  
 }
 
+.col-sm{
+    font-size: large;
+    width: 15rem;
+}
+
+
+.col1{
+   gap: 1rem;
+   align-items: center;   
+}
+
+.colh3{
+    font-size: 2rem;
+}
 .cont{
-    font-size: 1rem;
+    font-size: large;
 }
 
 
