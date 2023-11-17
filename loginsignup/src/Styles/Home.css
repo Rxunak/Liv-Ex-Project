@@ -44,7 +44,7 @@
    text-decoration: none;
    font-family: sans-serif;
    box-sizing: border-box;
-   background-color: #b2505c;
+   background-color: #8a1253;
    background-image: linear-gradient(315deg, #b2505c 0%, #4c131a 74%, brown);
    border-radius: 30px;
    border: none;
@@ -55,30 +55,48 @@
   }
 
   .st-home{
-    color: brown;
+    color: #8a1253;
   } 
 
   .bottom{
     height: 500px;
-    border: solid black;
     display: flex;
     justify-content: center;
     align-items: center ;
     flex-direction: column;
+    background: linear-gradient(300deg,#f9f6f6,#b7b3b3,#b3e0ef,#8a1253);
+    background-size: 240% 240%;
+    animation: bottom-animation 24s ease infinite;
+    
+  }
+
+  @keyframes bottom-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
 
   .accordion{
-    width: 500px;
+    width: 850px;
+    
   }
 
   .item{
-    background: #f0ebe1;
+    background: radial-gradient(circle at 18.7% 37.8%, rgb(223, 219, 219) 0%, rgb(200, 226, 238) 90%);
+
     margin-bottom: 5px;
     padding: 10px 20px;
+    border-radius: 1rem;
   }
 
   .title{
-    color: #85662b;
+    color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,10 +104,12 @@
   }
 
   .contentt{
-    color: #8b7f75;
+    color: #8a1253;
     max-height: 0;
     overflow: hidden;
     transition: all 0.5s cubic-bezier(0,1,0,1);
+    font-size: 1.5rem;
+    display: flex;
   }
 
   .contentt.show{
@@ -97,6 +117,16 @@
     max-height: 9999px;
     transition: all 0.5s cubic-bezier(1,0,1,0); 
   }
+
+  .bottm-head{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+  
+  }
+
+ 
+
+ 
 
 
 

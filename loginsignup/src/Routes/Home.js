@@ -49,7 +49,7 @@ function Home() {
       </div>
 
       <div className="bottom">
-        <div className="bottm-head">FAQ</div>
+        <div className="bottm-head">FAQ'S</div>
         <div className="accordion">
           {data.map((item, i) => (
             <div className="item">
