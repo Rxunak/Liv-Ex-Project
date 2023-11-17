@@ -1,41 +1,55 @@
 .NavbarItems{
+    position: sticky;
+    top: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
-    width: 100%;
-    height: 90px;
-    border-radius: 13px;
-    margin-top: 10px;
     background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
-   border-bottom: solid 1px black;
-   margin-bottom: 10px;
+    margin-bottom: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+   
+    
 }
 
 .logo2{
-    height: 75px;
+    height: 70px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25); ;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25); 
 }
 
 .nav-menu{
     display: grid;
     grid-template-columns: repeat(6, auto);
-    grid-gap: 10px;
+    grid-gap: 11px;
     list-style: none;
     align-items: center;
+    padding-top: 10px;
+    
 }
 
 .nav-links{
     text-decoration: none;
     color: black;
-    font-size: 1.2rem;
+    font-size: 20px;
     font-weight: 600;
-    padding: 0.7 rem 1rem;
     white-space: nowrap;
+    background-color: lightgray;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    
+    
 
 }
+
+#icon{
+    padding-right: 5px;
+}
+
+
 
 .nav-links{
     padding-right: 10px;
@@ -44,7 +58,7 @@
 .nav-links:hover{
     background-color: transparent ;
     color: #8a1253;
-    border-radius: 4px;
+
     transition: all 0.2s ease-in-out;
 
 }
@@ -57,17 +71,18 @@
     padding: 0.5rem 1rem;
     white-space:nowrap;
     border-radius: 0.3rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 600;
     border: none;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    background-color: lightgray;
 
 }
 
 .navbarbutton:hover{
-    background-color: transparent;
-    color: #8a1253;
+    background-color: #8a1253;
+    color: black;
 }
 
 @media screen and (max-width: 850px){
