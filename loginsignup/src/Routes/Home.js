@@ -55,7 +55,7 @@ function Home() {
             <div className="item">
               <div key={item.id} className="title" onClick={() => toggle(i)}>
                 <h2>{item.question}</h2>
-                <span>{selected === i ? "-" : "+"}</span>
+                <span className="span">{selected === i ? "-" : "+"}</span>
               </div>
               <div className={selected === i ? "contentt show" : "contentt"}>
                 {item.answer}

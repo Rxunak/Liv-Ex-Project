@@ -61,6 +61,28 @@
     font-size: large;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .footercontainer{
+    gap: 15rem;
+  }
+
+  .socialsH3{
+    font-size: 1.5rem;
+  }
+
+  #ic{
+    font-size: 1.5rem;
+  }
+
+  .colh3{
+    font-size: 1.5rem;
+  }
+    
+  .cont{
+    font-size: 1rem;
+  }
+}
+
 
 
 

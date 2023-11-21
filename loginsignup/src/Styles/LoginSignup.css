@@ -100,4 +100,10 @@
   color: #676767;
 }
 
+@media screen and (max-width: 1326px) {
+  .heading-home{
+    font-size: 2rem;
+  }
+}
+
 

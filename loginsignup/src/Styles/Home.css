@@ -89,9 +89,8 @@
 
   .item{
     background: radial-gradient(circle at 18.7% 37.8%, rgb(223, 219, 219) 0%, rgb(200, 226, 238) 90%);
-
     margin-bottom: 5px;
-    padding: 10px 20px;
+    padding: 5px;
     border-radius: 1rem;
   }
 
@@ -101,6 +100,8 @@
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    
+   
   }
 
   .contentt{
@@ -122,6 +123,46 @@
     font-size: 3rem;
     padding-bottom: 2rem;
   
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px){
+    
+    .heading-home{
+      font-size: 2rem;
+      padding-top: 7rem;
+    }
+
+    .p-home{
+      font-size: 1.5rem;
+    }
+
+    .h2-home{
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    .navbabutton{
+      font-size: 1rem;
+      width: 100px;
+      height: 30px;
+    
+    }
+
+    .bottm-head{
+      font-size: 1.5rem;
+    }
+
+    .contentt{
+      font-size: 1rem;
+    }
+
+    .title{
+      font-size: 1rem;
+    }
+
+    
+    
+    
   }
 
  
